@@ -33,6 +33,11 @@ pip install djangorestframework
 pip install django-cors-headers
 ```
 
+其他方法：通过``back_end_and_database/your_project_name``路径下的``requirements.txt``安装依赖包
+```bash
+pip install -r requirements.txt
+```
+
 (5) 从github上下载src文件夹至本地路径 `$path`，并解压之。
 
 ## 2. 进入默认的postgres数据库并配置
