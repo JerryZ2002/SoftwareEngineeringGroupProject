@@ -33,7 +33,8 @@ pip install djangorestframework
 pip install django-cors-headers
 ```
 
-其他方法：通过``back_end_and_database/your_project_name``路径下的``requirements.txt``安装依赖包
+其他方法：通过 ``back_end_and_database/your_project_name``路径下的 ``requirements.txt``安装依赖包
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -217,14 +218,22 @@ DATABASES = {
 
 ## 4. 启动操作
 
-(1) 通过打开PostgreSQL数据库（输入用户名及相应口令，这里默认是仅需要输入用户postgres口令，其它部分按enter跳过即可），而后输入 `\dt`应该能看到与2(2)中相同的表格信息。  
+(1) 通过打开PostgreSQL数据库（输入用户名及相应口令，这里默认是仅需要输入用户postgres口令，其它部分按enter跳过即可），而后输入 `\dt`应该能看到与2(2)中相同的表格信息。
 (2) 再新建一个终端，进入 `$path\src\back_end_and_database\your_project_name`路径，输入如下命令以启动**后端**服务：
+
 ```shell
 python manage.py runserver
-```  
+```
+
 (3) 再新建一个终端进入 `$path\src\front_end`路径，输入如下命令以启动**前端**服务：
+
 ```shell
 npm run dev
 ```
-记录下前端服务的端口号，这里假定为5173。  
+
+注：如果出现类似下列的情况可以使用 `npm install`解决
+
+![1719238568726](image/README/1719238568726.png)
+
+记录下前端服务的端口号，这里假定为5173。
 (4) 打开浏览器，输入 `http://localhost:5173/` 即可看到前端页面。
