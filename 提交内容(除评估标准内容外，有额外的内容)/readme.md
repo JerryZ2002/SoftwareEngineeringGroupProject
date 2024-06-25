@@ -8,13 +8,14 @@
 
 ## 小组贡献率文档.pdf
 
-    小组成员的贡献率统计表（全体成员均一致认可之），可供参考。
+    小组成员的贡献率统计表（全体成员均一致认可之），贡献度互评分数也较松，可供参考。
 
-## 源文件说明
+## src文件夹
 
-    通过[Github仓库](https://github.com/JerryZ2002/SoftwareEngineeringGroupProject)里src文件夹可调取所需源文件，部署说明可参考其中的deploy_guide。
+    此处有包括所需代码文件。当然也可以通过[Github仓库](https://github.com/JerryZ2002/SoftwareEngineeringGroupProject)里src文件夹来调取所需源文件，部署说明可参考其中的deploy_guide。
 
 ## 其它说明与可参考内容
 
-* 协调完成任务过程具体可参考 `$path/提交内容(除评估标准内容外，有额外的内容)/基础内容/团队报告.pdf` 与 `$path/提交内容(除评估标准内容外，有额外的内容)/基础内容/软件工程化说明文档.pdf` 中的内容。
-* [Github仓库](https://github.com/JerryZ2002/SoftwareEngineeringGroupProject) 将在6.26公开，其中包括了大量协同完成任务的记录。
+* [Github仓库](https://github.com/JerryZ2002/SoftwareEngineeringGroupProject) 将在6.26公开（届时将关闭修改权限，以确保小组仅在截止时间前修改仓库内信息，方便TA等评分），其中包括了大量协同完成任务的记录与所有内容的具体完成细节等。
+* [协作完成记录](【腾讯文档】任务说明与完成情况记录 https://docs.qq.com/sheet/DRm9kd1NVQnZVYnFi?tab=BB08J2)
+* **注：**协调完成任务过程具体可参考 `$path/提交内容(除评估标准内容外，有额外的内容)/基础内容/团队报告.pdf` 与 `$path/提交内容(除评估标准内容外，有额外的内容)/基础内容/软件工程化说明文档.pdf` 中的内容，其有包括此处未显示链接和其它说明等。
